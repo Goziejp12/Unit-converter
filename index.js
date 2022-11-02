@@ -12,9 +12,7 @@ convertBtn.addEventListener("click", function() {
     massConversion()
 })
 
-resetBtn.addEventListener("click", function() {
-    lengthEl.innerHTML += "" 
-})
+/* .toFixed(3): for rounding off the value to 3 decimal places */
 
 function lengthConversion() {
     htmlPart = `<p>${inputEl.value} meter(s) = ${(inputEl.value * 3.281).toFixed(3)} feet | 
