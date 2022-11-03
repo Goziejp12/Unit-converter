@@ -1,6 +1,6 @@
 const convertBtn = document.querySelector("#convertBtn")
 const resetBtn = document.querySelector("#resetBtn")
-const inputEl = document.querySelector("input")
+const inputEl = document.querySelector("#input-field")
 const lengthEl = document.querySelector("#length")
 const volumeEl = document.querySelector("#volume")
 const massEl = document.querySelector("#mass")
