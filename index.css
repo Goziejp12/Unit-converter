@@ -24,9 +24,9 @@ h1 {
     color: #FFFFFF;
 }
 ::placeholder {
-    font-size: 15px;
+    font-size: 30px;
     font-style: italic;
-    color: rgb(193, 88, 88);
+    color: grey;
 }
 button {
     margin-top: 40px;
