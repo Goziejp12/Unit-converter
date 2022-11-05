@@ -7,10 +7,12 @@ const massEl = document.querySelector("#mass")
 let htmlPart = "" 
 
 convertBtn.addEventListener("click", function() {
-    lengthConversion()
-    volumeConversion()
-    massConversion()
-    inputEl.value = ""
+    if (inputEl.value) {
+        lengthConversion()
+        volumeConversion()
+        massConversion()
+        inputEl.value = ""
+    }
 })
 
 /* .toFixed(3): for rounding off the value to 3 decimal places */
