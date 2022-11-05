@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F4F4F4;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 h1 {
     color: #FFFFFF;
 }
+
 #input-field {
     border: 2px solid #B295FF;
     border-radius: 5px;
@@ -30,11 +32,13 @@ h1 {
     text-align: center;
     color: #FFFFFF;
 }
+
 ::placeholder {
     font-size: 30px;
     font-style: italic;
     color: grey;
 }
+
 button {
     margin-top: 25px;
     width: 117px;
@@ -73,9 +77,4 @@ font-weight: 400;
 font-size: 14px;
 text-align: center;
 color: #353535;
-}
-
-footer {
-    padding: 10px 0;
-    background: #F4F4F4;
 }
